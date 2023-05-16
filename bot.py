@@ -13,7 +13,7 @@ def get_balance():
 
     data = response.json()
     balance = data["balance"]
-    hir ="tett"
+    hir ="hello a chai"
     return balance,hir
     
 balance_value, hir_value = get_balance()
